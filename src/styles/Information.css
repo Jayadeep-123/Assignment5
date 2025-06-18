@@ -1,0 +1,5 @@
+.information{
+    width:20%;
+   height:calc(100vh - 33vh);
+   border:1px solid yellow;
+}

@@ -1,0 +1,5 @@
+.student_information{
+    width:80%;
+   height:calc(100vh - 33vh);
+   border:1px solid green;
+}
