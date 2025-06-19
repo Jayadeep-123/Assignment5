@@ -1,5 +1,30 @@
 .information{
-    width:20%;
+    width:25%;
    height:calc(100vh - 33vh);
-   border:1px solid yellow;
+   /* border:1px solid yellow; */
+}
+.icons{
+    display: flex;
+}
+.border-bottom-custom{
+    color: #E6E4F0;
+}
+.profile-card {
+  width: 95%;
+  max-width: 500px;
+  margin: 0 auto; 
+}
+.custoum-text{
+    color:#2D2D2D;    
+}
+
+.profile-card .custom-green{
+background-color: #81F9494D; 
+  color: #4A74FD;
+}
+.profile-card .custom-pink{
+
+    background-color: #FF55EE4D; 
+  color: #710062;
+
 }
