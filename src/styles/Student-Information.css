@@ -1,5 +1,5 @@
 .student_information{
     width:75%;
    height:calc(100vh - 33vh);
-   border:1px solid green;
+   background-color: rgb(165, 114, 147);
 }

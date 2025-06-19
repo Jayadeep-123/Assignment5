@@ -10,12 +10,13 @@ import StudentInformation from "./Student_Information";
 
             <main>
         
-                <div className="screen">
+                <div className="screen ">
 
-
+                    <div className="top">
                     <Studentprofile/>
                     <Navbar/>
-                    <div className="student_screen">
+                    </div>
+                    <div className="student_screen gap-3">
                         <StudentInformation/>
                         <Information/>
                     </div>

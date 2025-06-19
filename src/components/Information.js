@@ -2,7 +2,7 @@ import "../styles/Information.css"
 
 const Information = () => {
     return (
-        <div className="information">
+        <div className="information bg-red">
             <div className="d-flex align-items-center gap-2 border-bottom border-bottom-custom">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path opacity="0.4" d="M13.7362 0.833344H16.84C18.1254 0.833344 19.1669 1.88371 19.1669 3.17998V6.30999C19.1669 7.60626 18.1254 8.65662 16.84 8.65662H13.7362C12.4507 8.65662 11.4092 7.60626 11.4092 6.30999V3.17998C11.4092 1.88371 12.4507 0.833344 13.7362 0.833344Z" fill="#56555C" />
