@@ -7,7 +7,7 @@ const Studentprofile = () => {
     return (
         <div className="container ">
             <div className="row">
-                <div className="student_profile col-lg-12 d-flex align-items-center justify-content-between">
+                <div className="student_profile col-lg-12 d-flex align-items-center justify-content-between position-relative">
 
                     {/* Left: Image + Name */}
                     <div className="d-flex align-items-center">
@@ -48,7 +48,7 @@ const Studentprofile = () => {
                         </div>
 
                         <div className="row p-5">
-                            <div className="col-md-4 mb-3">
+                            <div className="col-md-4 mb-3 ">
                                 <p className="mb-0 text-muted small">Course Track / Orientation</p>
                                 <p className="fw-semibold mb-0">Class 8 with Techno</p>
                             </div>
@@ -76,24 +76,27 @@ const Studentprofile = () => {
 
                     </div>
 
-                    {/* Right: Button */}
-                    <Button
-                        variant="contained"
-                        startIcon={<TrendingUpIcon />}
-                        sx={{
-                            height: "40px",
-                            width: "160px",
-                            backgroundColor: "#3425FF",
-                            color: "#ffffff",
-                            fontSize: "10px",
-                            textTransform: "none", // optional: prevents uppercase
-                            "&:hover": {
-                                backgroundColor: "#2b20d1", // slightly darker on hover
-                            }
-                        }}
-                    >
-                        View full Profile
-                    </Button>
+                   <Button
+    variant="contained"
+    startIcon={<TrendingUpIcon />}
+    sx={{
+      position: "absolute",         // key line!
+      top: "10px",
+      right: "10px",
+      height: "40px",
+      width: "160px",
+      backgroundColor: "#3425FF",
+      color: "#ffffff",
+      fontSize: "10px",
+      boxShadow: "0 4px 12px rgba(45, 46, 255, 0.3)",
+      textTransform: "none", // optional: prevents uppercase
+      "&:hover": {
+        backgroundColor: "#2b20d1",
+      },
+    }}
+  >
+    View full Profile
+  </Button>
 
                 </div>
             </div>
