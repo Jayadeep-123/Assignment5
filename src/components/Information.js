@@ -53,7 +53,7 @@ const Information = () => {
                 {!openCard || openCard !== "profile" ? (
                     <div className="button-row">
                         <button
-                            className="btn btn-sm rounded-pill custom-green"
+                            className="btn btn-sm rounded-pill additional custom-green "
                             onClick={() => toggleCard("profile")}
                         >
                             Profile Details
@@ -108,7 +108,7 @@ const Information = () => {
                 {renderHeader("Additional Details", "additional")}
                 {!openCard || openCard !== "additional" ? (
                     <div className="button-row">
-                        <button className="btn btn-sm rounded-pill custom-green" onClick={() => toggleCard("additional")}>Language</button>
+                        <button className="btn btn-sm rounded-pill custom-green " onClick={() => toggleCard("additional")}>Language</button>
                         <button className="btn btn-sm rounded-pill custom-pink" onClick={() => toggleCard("additional")}>Sports</button>
                     </div>
                 ) : (

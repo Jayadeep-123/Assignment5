@@ -2,8 +2,8 @@
   width: 25%;
   height: calc(100vh - 33vh);
    overflow-y: auto; 
-   overflow: hidden;  
-
+  scrollbar-width: none;
+  overflow-x:hidden;
 }
 
 .profile-card {
@@ -20,7 +20,6 @@
   padding: 8px 12px;   /* Reduced padding */
 }
 
-/* Section Title (Heading Text) */
 .section-title {
   font-size: 15px;
   font-weight: 600;
@@ -48,17 +47,17 @@
 }
 
 /* Pill buttons */
-.custom-green {
-  background-color: #81F9494D;
-  color: #4A74FD;
+.custom-green  {
+  background-color: #81F9494D !important;
+  color: #4A74FD !important;
   font-size: 13px;
   padding: 4px 10px;
   margin: 0;
 }
 
 .custom-pink {
-  background-color: #FF55EE4D;
-  color: #710062;
+  background-color: #FF55EE4D !important;
+  color: #710062 !important;
   font-size: 13px;
   padding: 4px 10px;
   margin: 0;
