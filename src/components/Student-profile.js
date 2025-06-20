@@ -1,12 +1,22 @@
 import studentImg from "../assets/Student.jpg";
 import Button from "@mui/material/Button";
 import TrendingUpIcon from "@mui/icons-material/TrendingUp";
+import heroBackground from "../assets/Hero-block.png";
+
 import "../styles/Student_profile.css";
 
 const Studentprofile = () => {
     return (
+        <div
+            className="container-fluid student-profile"
+            style={{
+                backgroundImage: `url(${heroBackground})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+            }}
+        >
 
-        <div className="container student-profile ">
 
             <div className="row">
                 <div className="student_profile col-lg-12 d-flex align-items-center justify-content-between position-relative pb-0 pt-2">
@@ -71,7 +81,7 @@ const Studentprofile = () => {
                                 <p className="mb-0 text-muted small">Section</p>
                                 <p className="fw-semibold mb-0">8A</p>
                             </div>
-                              </div>
+                        </div>
                     </div>
                     <Button
                         variant="contained"
@@ -96,6 +106,7 @@ const Studentprofile = () => {
                     </Button>
 
                 </div>
+
                 <div className="col-12 pt-3">
                     <nav>
                         <div className="d-flex gap-5">

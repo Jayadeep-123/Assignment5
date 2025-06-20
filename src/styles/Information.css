@@ -1,30 +1,85 @@
-.information{
-    width:25%;
-   height:calc(100vh - 33vh);
-   /* border:1px solid yellow; */
+.information {
+  width: 25%;
+  height: calc(100vh - 33vh);
+   overflow-y: auto; 
+   overflow: hidden;  
+
 }
-.icons{
-    display: flex;
-}
-.border-bottom-custom{
-    color: #E6E4F0;
-}
+
 .profile-card {
-  width: 95%;
+  width: 100%;
   max-width: 500px;
-  margin: 0 auto; 
-}
-.custoum-text{
-    color:#2D2D2D;    
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 10px; /* optional small space between cards */
 }
 
-.profile-card .custom-green{
-background-color: #81F9494D; 
+/* Card Header */
+.card-header {
+  padding: 8px 12px;   /* Reduced padding */
+}
+
+/* Section Title (Heading Text) */
+.section-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2D2D2D;
+  margin: 0;
+  padding: 0;
+}
+
+/* Toggle Arrow Button */
+.toggle-btn {
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  color: #000;
+  padding: 0;
+  margin: 0;
+}
+
+/* Pill buttons row under collapsed header */
+.button-row {
+  padding: 6px 12px;
+  margin: 0;
+  display: flex;
+  gap: 8px;
+}
+
+/* Pill buttons */
+.custom-green {
+  background-color: #81F9494D;
   color: #4A74FD;
+  font-size: 13px;
+  padding: 4px 10px;
+  margin: 0;
 }
-.profile-card .custom-pink{
 
-    background-color: #FF55EE4D; 
+.custom-pink {
+  background-color: #FF55EE4D;
   color: #710062;
+  font-size: 13px;
+  padding: 4px 10px;
+  margin: 0;
+}
 
+/* Opened profile content */
+.profile-info-row {
+  margin: 0;
+  padding: 10px 12px !important;
+}
+
+.profile-info-row .form-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #555;
+  margin: 0;
+}
+
+.profile-info-row .form-value {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin: 0 0 6px 0;
 }

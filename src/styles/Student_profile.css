@@ -1,13 +1,13 @@
 .student_profile {
-  width: 100%;
   display: flex;
   justify-content: flex-end;
   padding: 1rem;
   border-radius: 8px;
+
 }
-.student-profile{
-  height:25vh;
-  
+.student-profile {
+  height: 25vh;
+  width: 100%;
 }
 
 
