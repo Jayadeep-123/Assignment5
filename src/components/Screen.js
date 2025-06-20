@@ -1,6 +1,6 @@
 import "../styles/Screen.css"
-import Information from "./Information";
-import Navbar from "./Navbar";
+// import Information from "./Information";
+import PaymentInformation from "./payment-information";
 import Studentprofile from "./Student-profile";
 import StudentInformation from "./Student_Information";
 
@@ -10,15 +10,15 @@ import StudentInformation from "./Student_Information";
 
             <main>
         
-                <div className="screen ">
+                <div className="screen">
 
                     <div className="top">
                     <Studentprofile/>
-                    <Navbar/>
                     </div>
                     <div className="student_screen gap-3">
                         <StudentInformation/>
-                        <Information/>
+                        <PaymentInformation/>
+                        {/* <Information/> */}
                     </div>
                 </div>
                 </main>

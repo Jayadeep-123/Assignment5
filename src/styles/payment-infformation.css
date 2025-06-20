@@ -1,0 +1,13 @@
+.information{
+    width:25%;
+   height:calc(100vh - 33vh);
+   /* border:1px solid yellow; */
+}
+.dropdown-arrow {
+  transition: transform 0.3s ease;
+}
+
+.dropdown-arrow.rotate {
+  transform: rotate(180deg);
+}
+

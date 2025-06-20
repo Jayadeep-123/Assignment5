@@ -78,6 +78,7 @@ const Information = () => {
                             <clipPath id="clip0_1316_1617">
                                 <rect width="22" height="22" fill="white" />
                             </clipPath>
+
                         </defs>
                     </svg>
                 </div>
@@ -92,6 +93,13 @@ const Information = () => {
                 </div>
             </div>
 
+
+            {/* <div class="card profile-card shadow-sm mt-2 ">
+                <div class="card-header  justify-content-between align-items-center ">
+                    <span class="fw-normal custoum-text">Payment Details</span>
+                    
+                </div>
+            </div> */}
 
 
 
