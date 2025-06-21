@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import StudentInformation from "./Student_Information";
-import Information from "./Information";
-import Payments from "./Payments";
+import Information from "./Student-Information/Information";
+import Payments from "./Payments/Payments";
 import Studentprofile from "./Student-profile";
 import "../styles/Screen.css";
-import PaymentInformation from "./payment-information";
+import StudentInformation from "./Student-Information/Student_Information";
+import PaymentInformation from "./Payments/payment-information";
 
 const Screen = () => {
   return (
@@ -19,7 +19,7 @@ const Screen = () => {
           
           <Route path="/student-profile" element={
             <>
-              <StudentInformation />
+              <StudentInformation/>
               <Information />
             </>
           } />

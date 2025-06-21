@@ -1,4 +1,4 @@
-import "../styles/Student-Information.css"
+import "../../styles/Student-Information/Student-Information.css"
 
 const StudentInformation = () => {
     return(

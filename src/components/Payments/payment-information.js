@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/payment-infformation.css";
+import "../../styles/Payments/payment-infformation.css";
 
 const PaymentInformation = () => {
     const [isOpen, setIsOpen] = useState(false);

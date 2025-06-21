@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "../styles/Information.css";
+import "../../styles/Student-Information/Information.css"
+
 
 // Reusable Arrow Icon Component
 const ArrowIcon = ({ isOpen }) => (
