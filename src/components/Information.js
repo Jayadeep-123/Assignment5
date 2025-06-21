@@ -48,7 +48,7 @@ const Information = () => {
             </h6>
 
             {/* === Profile Details === */}
-            <div className="card profile-card shadow-sm mt-3">
+            <div className="card profile-card shadow-sm mt-3 ">
                 {renderHeader("Profile Details", "profile")}
                 {!openCard || openCard !== "profile" ? (
                     <div className="button-row">

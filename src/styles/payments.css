@@ -1,0 +1,6 @@
+.payment_information{
+   width:75%;
+   height:calc(100vh - 33vh);
+   background-color: red;
+}
+

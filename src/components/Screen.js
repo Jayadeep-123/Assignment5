@@ -4,19 +4,17 @@ import Information from "./Information";
 import Payments from "./Payments";
 import Studentprofile from "./Student-profile";
 import "../styles/Screen.css";
+import PaymentInformation from "./payment-information";
 
 const Screen = () => {
   return (
     <main className="w-100">
-      {/* Static Top Section (Profile Info) */}
       <div className="top">
         <Studentprofile />
       </div>
 
-      {/* Dynamic Section (based on route) */}
       <div className="student_screen p-0 gap-3">
         <Routes>
-          {/* Show blank for base route */}
           <Route path="/" element={<></>} />
           
           <Route path="/student-profile" element={
@@ -26,7 +24,12 @@ const Screen = () => {
             </>
           } />
           
-          <Route path="/payments" element={<Payments />} />
+          <Route path="/payments"  element={
+            <>
+              <Payments />
+              <PaymentInformation/>
+            </>
+          } />
         </Routes>
       </div>
     </main>
