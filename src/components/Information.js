@@ -38,7 +38,7 @@ const Information = () => {
     );
 
     return (
-        <div className="information pt-0 ">
+        <div className="information pt-2 ">
             <h6 className="d-flex align-items-center gap-2 pb-1 border-bottom border-2">
                 <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
                     <path opacity="0.4" d="M13.7 0.83H16.84C18.12 0.83 19.17 1.88 19.17 3.18V6.31C19.17 7.61 18.12 8.66 16.84 8.66H13.7C12.45 8.66 11.41 7.61 11.41 6.31V3.18C11.41 1.88 12.45 0.83 13.7 0.83Z" fill="#56555C" />

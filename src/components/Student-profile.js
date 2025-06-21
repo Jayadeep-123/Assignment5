@@ -2,6 +2,8 @@ import studentImg from "../assets/Student.jpg";
 import Button from "@mui/material/Button";
 import TrendingUpIcon from "@mui/icons-material/TrendingUp";
 import heroBackground from "../assets/Hero-block.png";
+import { NavLink } from "react-router-dom";
+
 
 import "../styles/Student_profile.css";
 
@@ -106,26 +108,27 @@ const Studentprofile = () => {
                     </Button>
 
                 </div>
-
-                <div className="col-12 pt-3">
-                    <nav>
-                        <div className="d-flex gap-5">
-                            <span className="custom-text-color fw-bold">Student Profile</span>
-                            <span className="custom-text-color">Payments</span>
-                            <span className="custom-text-color">Transport</span>
-                            <span className="custom-text-color">Academics</span>
-                            <span className="custom-text-color">Alerts</span>
-                            <span className="custom-text-color">History</span>
-                            <span className="custom-text-color">Room Allotment</span>
-                            <span className="custom-text-color">Issue Forms</span>
-                            <span className="custom-text-color">Certificates</span>
-                        </div>
-                    </nav>
-                </div>
+ <div className="col-12 pt-2 pb-2">
+        <nav>
+          <div className="d-flex gap-4 px-0 flex-wrap nav-links-wrapper">
+            <NavLink to="/student-profile" className="custom-tab-link">Student Profile</NavLink>
+            <NavLink to="/payments" className="custom-tab-link">Payments</NavLink>
+            <NavLink to="/transport" className="custom-tab-link">Transport</NavLink>
+            <NavLink to="/academics" className="custom-tab-link">Academics</NavLink>
+            <NavLink to="/alerts" className="custom-tab-link">Alerts</NavLink>
+            <NavLink to="/history" className="custom-tab-link">History</NavLink>
+            <NavLink to="/room-allotment" className="custom-tab-link">Room Allotment</NavLink>
+            <NavLink to="/issue-forms" className="custom-tab-link">Issue Forms</NavLink>
+            <NavLink to="/certificates" className="custom-tab-link">Certificates</NavLink>
+          </div>
+        </nav>
+      </div>
+    </div>
+      
 
             </div>
 
-        </div>
+        
 
 
     );

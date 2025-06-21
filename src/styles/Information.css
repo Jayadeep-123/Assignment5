@@ -7,9 +7,10 @@
 }
 
 .profile-card {
-  width: 100%;
+  width: 99%;
   max-width: 500px;
   margin: 0 auto;
+  padding-left: 0px;
   border-radius: 10px;
   border: 1px solid #e0e0e0;
   margin-bottom: 10px; /* optional small space between cards */
