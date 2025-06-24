@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import { useState } from "react";
 import "../../styles/Student-Information/Information.css"
 
 
@@ -49,7 +49,8 @@ const Information = () => {
             </h6>
 
             {/* === Profile Details === */}
-            <div className="card profile-card shadow-sm mt-2">
+            <div className="card border border-secondary-subtle rounded-3 shadow-sm mt-3 p-1">
+
                 {renderHeader("Profile Details", "profile")}
                 {!openCard || openCard !== "profile" ? (
                     <div className="button-row ">
@@ -63,24 +64,24 @@ const Information = () => {
                 ) : (
                     <div className="row profile-info-row pe-3 mb-0 ">
                         <div className="col-6 ">
-                            <label className="form-label small-label"  style={{color:"#999999"}}>Aadhar number</label>
-                            <span className="form-value"style={{color:"#4F4F4F"}} >6782 6789 9762</span>
+                            <label className="form-label small-label" style={{ color: "#999999" }}>Aadhar number</label>
+                            <span className="form-value" style={{ color: "#4F4F4F" }} >6782 6789 9762</span>
                         </div>
                         <div className="col-6 text-end px-0">
-                            <label className="form-label small-label " style={{color:"#999999"}}>Mother Name</label>
-                            <span className="form-value " style={{whiteSpace:"noWrap" ,color:"#4F4F4F"}}>RadhaRani Bhimineni</span>
+                            <label className="form-label small-label " style={{ color: "#999999" }}>Mother Name</label>
+                            <span className="form-value " style={{ whiteSpace: "noWrap", color: "#4F4F4F" }}>RadhaRani Bhimineni</span>
                         </div>
                         <div className="col-6">
-                            <label className="form-label small-label"  style={{color:"#999999"}}>Date of Birth</label>
-                            <span className="form-value" style={{color:"#4F4F4F"}}>28 Dec 1997</span>
+                            <label className="form-label small-label" style={{ color: "#999999" }}>Date of Birth</label>
+                            <span className="form-value" style={{ color: "#4F4F4F" }}>28 Dec 1997</span>
                         </div>
                         <div className="col-6 text-end">
-                            <label className="form-label small-label"  style={{color:"#999999"}}>Father Name</label>
-                            <span className="form-value"style={{color:"#4F4F4F"}}>Giridhar Bhiminen</span>
+                            <label className="form-label small-label" style={{ color: "#999999" }}>Father Name</label>
+                            <span className="form-value" style={{ color: "#4F4F4F" }}>Giridhar Bhiminen</span>
                         </div>
                         <div className="col-12">
-                            <label className="form-label"  style={{color:"#999999"}}>Address</label>
-                            <span className="form-value" style={{color:"#4F4F4F"}}>
+                            <label className="form-label" style={{ color: "#999999" }}>Address</label>
+                            <span className="form-value" style={{ color: "#4F4F4F" }}>
                                 6th Floor, NCC Building, Durgamma Cheruvu Road, HITEC City, Hyderabad, Telangana 500081
                             </span>
                         </div>
@@ -89,7 +90,7 @@ const Information = () => {
             </div>
 
             {/* === Campus Details === */}
-            <div className="card profile-card  mt-3 ">
+            <div className="card border border-secondary-subtle rounded-3 shadow-sm mt-3 p-1">
                 {renderHeader("Campus Details", "campus")}
                 {!openCard || openCard !== "campus" ? (
                     <div className="button-row">
@@ -105,7 +106,7 @@ const Information = () => {
             </div>
 
             {/* === Additional Details === */}
-            <div className="card profile-card shadow-sm mt-3">
+            <div className="card border border-secondary-subtle rounded-3 shadow-sm mt-3 p-1">
                 {renderHeader("Additional Details", "additional")}
                 {!openCard || openCard !== "additional" ? (
                     <div className="button-row">
