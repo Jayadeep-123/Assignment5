@@ -9,8 +9,20 @@
   height: 25vh;
   width: 100%;
 }
-
-
+.Names{
+  color:#606060;
+}
+.Names1{
+  color:#4F4F4F;
+  font-weight: 700;
+}
+.classButton{
+  background-color: #0F6CBD;
+}
+.TechnoButton{
+  background-color: #4B901F;
+}
+/*  */
 .custom-text-color {
   color: #252C32;
 }
@@ -30,12 +42,12 @@
   border-radius: 50%;
 }
 .custom-text-color {
-  color: #252C32 ;
+  color: #4F4F4F ;
 }
 .custom-tab-link {
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
+  color:#252C32;
+  font-weight: 400;
   font-size: 14px;
   padding: 4px 8px;
   transition: color 0.2s ease;

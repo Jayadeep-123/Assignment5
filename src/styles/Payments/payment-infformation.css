@@ -10,4 +10,15 @@
 .dropdown-arrow.rotate {
   transform: rotate(180deg);
 }
+.custoum-text{
+  color:#626262;
+}
+.custoum-heading{
+  font-weight: 500;
+  color:#000000;
+}
+.custoum-heading1{
+  font-weight: 400;
+  color: #2D2D2D;
+}
 

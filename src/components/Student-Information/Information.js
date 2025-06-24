@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "../../styles/Student-Information/Information.css"
 
 
@@ -23,7 +23,7 @@ const Information = () => {
     };
 
     const renderHeader = (title, cardKey) => (
-        <div className="card-header d-flex justify-content-between align-items-center">
+        <div className="header d-flex justify-content-between align-items-center bg-white">
             <div className="d-flex align-items-center gap-2">
                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path opacity="0.4" d="M17.2411 8.26926C16.8272 8.26926 16.279 8.26009 15.5964 8.26009C13.9318 8.26009 12.5631 6.88234 12.5631 5.20209V2.25409C12.5631 2.02218 12.3779 1.83334 12.1483 1.83334H7.29966C5.03691 1.83334 3.20801 3.69051 3.20801 5.96659V15.8437C3.20801 18.2316 5.12404 20.1667 7.48845 20.1667H14.7088C16.9633 20.1667 18.7913 18.3214 18.7913 16.0435V8.68176C18.7913 8.44893 18.6071 8.26101 18.3765 8.26192C17.989 8.26467 17.5243 8.26926 17.2411 8.26926Z" fill="#56555C" />
@@ -39,7 +39,7 @@ const Information = () => {
     );
 
     return (
-        <div className="information pt-2 ">
+        <div className="information p-2  ">
             <h6 className="d-flex align-items-center gap-2 pb-1 border-bottom border-2">
                 <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
                     <path opacity="0.4" d="M13.7 0.83H16.84C18.12 0.83 19.17 1.88 19.17 3.18V6.31C19.17 7.61 18.12 8.66 16.84 8.66H13.7C12.45 8.66 11.41 7.61 11.41 6.31V3.18C11.41 1.88 12.45 0.83 13.7 0.83Z" fill="#56555C" />
@@ -49,10 +49,10 @@ const Information = () => {
             </h6>
 
             {/* === Profile Details === */}
-            <div className="card profile-card shadow-sm mt-3 ">
+            <div className="card profile-card shadow-sm mt-2">
                 {renderHeader("Profile Details", "profile")}
                 {!openCard || openCard !== "profile" ? (
-                    <div className="button-row">
+                    <div className="button-row ">
                         <button
                             className="btn btn-sm rounded-pill additional custom-green "
                             onClick={() => toggleCard("profile")}
@@ -63,24 +63,24 @@ const Information = () => {
                 ) : (
                     <div className="row profile-info-row pe-3 mb-0 ">
                         <div className="col-6 ">
-                            <label className="form-label small-label">Aadhar number</label>
-                            <span className="form-value">6782 6789 9762</span>
+                            <label className="form-label small-label"  style={{color:"#999999"}}>Aadhar number</label>
+                            <span className="form-value"style={{color:"#4F4F4F"}} >6782 6789 9762</span>
                         </div>
-                        <div className="col-6 text-end">
-                            <label className="form-label small-label">Mother Name</label>
-                            <span className="form-value">RadhaRani Bhimineni</span>
+                        <div className="col-6 text-end px-0">
+                            <label className="form-label small-label " style={{color:"#999999"}}>Mother Name</label>
+                            <span className="form-value " style={{whiteSpace:"noWrap" ,color:"#4F4F4F"}}>RadhaRani Bhimineni</span>
                         </div>
                         <div className="col-6">
-                            <label className="form-label small-label">Date of Birth</label>
-                            <span className="form-value">28 Dec 1997</span>
+                            <label className="form-label small-label"  style={{color:"#999999"}}>Date of Birth</label>
+                            <span className="form-value" style={{color:"#4F4F4F"}}>28 Dec 1997</span>
                         </div>
                         <div className="col-6 text-end">
-                            <label className="form-label small-label">Father Name</label>
-                            <span className="form-value">Giridhar Bhiminen</span>
+                            <label className="form-label small-label"  style={{color:"#999999"}}>Father Name</label>
+                            <span className="form-value"style={{color:"#4F4F4F"}}>Giridhar Bhiminen</span>
                         </div>
                         <div className="col-12">
-                            <label className="form-label">Address</label>
-                            <span className="form-value">
+                            <label className="form-label"  style={{color:"#999999"}}>Address</label>
+                            <span className="form-value" style={{color:"#4F4F4F"}}>
                                 6th Floor, NCC Building, Durgamma Cheruvu Road, HITEC City, Hyderabad, Telangana 500081
                             </span>
                         </div>
@@ -89,7 +89,7 @@ const Information = () => {
             </div>
 
             {/* === Campus Details === */}
-            <div className="card profile-card shadow-sm mt-3">
+            <div className="card profile-card  mt-3 ">
                 {renderHeader("Campus Details", "campus")}
                 {!openCard || openCard !== "campus" ? (
                     <div className="button-row">
